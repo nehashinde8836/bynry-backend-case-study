@@ -126,7 +126,7 @@ This implementation focuses on simplicity, clean backend design, and production-
 ## 📸 Output Screenshots
 
 ### API Response
-![API Response](output/api_response.png)
+![API Response](Output/api_response.png)
 
 ### Server Running
-![Server Running](output/server_running.png)
+![Server Running](Output/server_running.png)
