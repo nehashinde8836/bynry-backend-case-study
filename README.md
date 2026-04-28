@@ -24,7 +24,7 @@ This project implements a simplified backend system for a B2B inventory platform
 ## Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/YOUR-USERNAME/bynry-backend-case-study.git
+git clone https://github.com/nehashinde8836/bynry-backend-case-study.git
 
 2. Navigate to project:
 cd bynry-backend-case-study
