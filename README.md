@@ -3,6 +3,15 @@
 ## Overview
 This project implements a simplified backend system for a B2B inventory platform ("StockFlow"). It focuses on low-stock alert generation across multiple warehouses while ensuring clean architecture and scalability.
 
+This project demonstrates backend API design, database modeling, and real-world problem solving for inventory systems.
+
+---
+
+## Case Study Document
+Detailed explanation of all parts (Code Review, Database Design, API Implementation):
+
+🔗 https://docs.google.com/document/d/14W19i3oM8S53VSmO322R_wtfYoM1l0AukOQ0HRnVVgs/edit?usp=sharing
+
 ---
 
 ## Features
@@ -37,7 +46,7 @@ python app.py
 
 ---
 
-## 📡 API Endpoint
+## API Endpoint
 
 GET /api/companies/{company_id}/alerts/low-stock
 
@@ -92,6 +101,7 @@ http://127.0.0.1:5000/api/companies/1/alerts/low-stock
 - Uses relational schema with constraints
 - Avoids duplicate inventory entries
 - Scalable for large datasets (can add pagination & caching)
+- Added indexing considerations on frequently queried fields such as sku, product_id, and warehouse_id to improve performance
 
 ---
 
@@ -111,10 +121,12 @@ Neha Shinde
 ## Note
 This implementation focuses on simplicity, clean backend design, and production-ready practices while making reasonable assumptions due to incomplete requirements.
 
-## Output Screenshots
+---
+
+## 📸 Output Screenshots
 
 ### API Response
-![API Response](Output/api_response.png)
+![API Response](output/api_response.png)
 
 ### Server Running
-![Server Running](Output/server_running.png)
+![Server Running](output/server_running.png)
